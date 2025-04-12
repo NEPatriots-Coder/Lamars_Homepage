@@ -1,0 +1,54 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/configs/settings/
+title: My Dashboard
+theme: dark
+layout: horizontal
+background: /icons/imagebackground.png
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+providers:
+  newsapi.org: "e1c7d1000c9f419d8970a2d306fbd85f"
+  openweather.org: "478c6ca9e225765d2073f68f7705c6cd"

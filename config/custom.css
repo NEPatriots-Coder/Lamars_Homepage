@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+
+/* Style for input fields (like the search bar) */
+input[type="text"],
+input[type="search"],
+input { /* General input fallback */
+    color: #FFFFFF !important; /* Force text color to white */
+    background-color: rgba(0, 0, 0, 0.5) !important; /* Add a slightly dark semi-transparent background to the input itself */
+    caret-color: #FFFFFF; /* Make the typing cursor white */
+}
+
+/* Style for placeholder text */
+input::placeholder {
+    color: #CCCCCC !important; /* Make placeholder text light gray */
+    opacity: 1; /* Ensure placeholder is fully opaque */
+}
+
+
+
+
+/* Apply styles to the main page container instead of body */
+#page_container {
+    font-family: 'Orbitron', sans-serif !important; /* Use !important initially to ensure override */
+    background: url('https://i.imgur.com/rainy-neon-city.jpg') no-repeat center center fixed !important; /* Use !important */
+    background-size: cover !important; /* Use !important */
+    /* animation: glitch 5s infinite; */ /* You can try adding animation here too if desired */
+}
+
+/* Comment out or remove the original body styles */
+/*
+body {
+    font-family: 'Orbitron', sans-serif;
+    background: url('https://i.imgur.com/rainy-neon-city.jpg') no-repeat center fixed;
+    background-size: cover;
+    animation: glitch 5s infinite;
+}
+*/
+
+.widget {
+    border: 2px solid #00FFFF; /* Cyan border */
+    box-shadow: 0 0 15px #00FFFF, 0 0 30px #FF00FF; /* Cyan and Magenta glow */
+    border-radius: 5px;
+    background: rgba(13, 27, 42, 0.8); /* Dark blue semi-transparent background */
+    transition: transform 0.3s;
+}
+
+.widget:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #1E90FF; /* Brighter blue glow on hover */
+}
+
+@keyframes glitch {
+    0% { transform: translate(0); }
+    2% { transform: translate(-2px, 2px); }
+    4% { transform: translate(2px, -2px); }
+    6% { transform: translate(0); }
+}

@@ -1,0 +1,53 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/configs/services/
+
+- Productivity:
+      - Jupyter Notebook:
+            href: "http://localhost:8888"
+            icon: jupyter
+            description: "Data Analysis Hub"
+            style: neon
+      - VS Code Server:
+            href: "http://localhost:8080"
+            icon: vscode
+            description: "Code the Grid"
+            style: glitch
+      - AWS Console:
+            href: "https://signin.aws.amazon.com/signin?redirect_uri=https%3A%2F%2Fus-east-1.console.aws.amazon.com%2Fconsole%2Fhome%3FhashArgs%3D%2523%26isauthcode%3Dtrue%26nc2%3Dh_ct%26region%3Dus-east-1%26src%3Dheader-signin%26state%3DhashArgsFromTB_us-east-1_ace5b4cb259e2513&client_id=arn%3Aaws%3Asignin%3A%3A%3Aconsole%2Fcanvas&forceMobileApp=0&code_challenge=VH42d_wiOJMx7OdaPfc925gdvKUhWx_UB0D3BY_ofLM&code_challenge_method=SHA-256"
+            icon: aws
+            description: "Cloud Nexus"
+            style: cyberpunk
+      - Notion:
+            href: "https://www.notion.so"
+            icon: notion
+            description: "Mission Logs"
+            style: neon
+
+- Favorites:
+      - Grok:
+            href: "https://grok.com"
+            icon: config/public/icons/grok.png
+            description: "AI Oracle"
+            style: hologram
+      - GitHub:
+            href: "https://github.com"
+            icon: github
+            description: "Code Vault"
+            style: neon
+
+      - Sports:
+              - The Rundown:
+                      type: api
+                      url: rapidapi.com
+                      params:
+                            key: "9e28f4eba2mshd6a197508514f6fp1fd4a8jsn1b25985769bf"
+                            l: "4328"
+
+      - Sports:
+              - The Rundown:
+                      type: api
+                      url: rapidapi.com
+                      params:
+                            key: "9e28f4eba2mshd6a197508514f6fp1fd4a8jsn1b25985769bf"
+                            l: "4328"

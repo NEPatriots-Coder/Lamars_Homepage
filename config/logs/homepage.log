@@ -1,0 +1,274 @@
+[2025-04-12T12:57:01.649Z] info: kubernetes.yaml was copied to the config folder
+[2025-04-12T12:58:16.749Z] info: docker.yaml was copied to the config folder
+[2025-04-12T12:58:16.781Z] info: services.yaml was copied to the config folder
+[2025-04-12T12:58:16.795Z] info: bookmarks.yaml was copied to the config folder
+[2025-04-12T12:58:16.865Z] info: widgets.yaml was copied to the config folder
+[2025-04-12T12:58:16.888Z] info: custom.css was copied to the config folder
+[2025-04-12T12:58:16.911Z] info: custom.js was copied to the config folder
+[2025-04-12T17:53:55.717Z] error: Failed to load settings.yaml, please check for errors
+[2025-04-12T17:53:55.719Z] error: YAMLException: expected hexadecimal character (7:18)
+
+ 4 | title: My Dashboard
+ 5 | theme: dark
+ 6 | layout: horizontal
+ 7 | background: "C:\Users\lamarw\Downloads\thechef87_ ...
+----------------------^
+ 8 | widgets:
+ 9 |   - openweathermap:
+[2025-04-12T17:53:55.746Z] error: <index> YAMLException: expected hexadecimal character (7:18)
+
+ 4 | title: My Dashboard
+ 5 | theme: dark
+ 6 | layout: horizontal
+ 7 | background: "C:\Users\lamarw\Downloads\thechef87_ ...
+----------------------^
+ 8 | widgets:
+ 9 |   - openweathermap:
+    at generateError (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:1273:10)
+    at throwError (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:1277:9)
+    at readDoubleQuotedScalar (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:1765:13)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2537:13)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2254:11)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2531:12)
+    at readDocument (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2715:3)
+    at loadDocuments (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2778:5)
+    at Object.load$1 [as load] (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2804:19)
+    at u (/app/.next/server/pages/browserconfig.xml.js:9:1682)
+[2025-04-12T17:53:55.775Z] error: Failed to discover services, please check kubernetes.yaml for errors or remove example entries.
+[2025-04-12T17:53:55.775Z] error: YAMLException: expected hexadecimal character (7:18)
+
+ 4 | title: My Dashboard
+ 5 | theme: dark
+ 6 | layout: horizontal
+ 7 | background: "C:\Users\lamarw\Downloads\thechef87_ ...
+----------------------^
+ 8 | widgets:
+ 9 |   - openweathermap:
+[2025-04-12T17:53:55.802Z] error: Failed to load settings.yaml, please check for errors
+[2025-04-12T17:53:55.803Z] error: YAMLException: expected hexadecimal character (7:18)
+
+ 4 | title: My Dashboard
+ 5 | theme: dark
+ 6 | layout: horizontal
+ 7 | background: "C:\Users\lamarw\Downloads\thechef87_ ...
+----------------------^
+ 8 | widgets:
+ 9 |   - openweathermap:
+[2025-04-12T17:53:56.188Z] error: Failed to load settings.yaml, please check for errors
+[2025-04-12T17:53:56.189Z] error: YAMLException: expected hexadecimal character (7:18)
+
+ 4 | title: My Dashboard
+ 5 | theme: dark
+ 6 | layout: horizontal
+ 7 | background: "C:\Users\lamarw\Downloads\thechef87_ ...
+----------------------^
+ 8 | widgets:
+ 9 |   - openweathermap:
+[2025-04-12T17:53:56.207Z] error: Failed to discover services, please check kubernetes.yaml for errors or remove example entries.
+[2025-04-12T17:53:56.207Z] error: YAMLException: expected hexadecimal character (7:18)
+
+ 4 | title: My Dashboard
+ 5 | theme: dark
+ 6 | layout: horizontal
+ 7 | background: "C:\Users\lamarw\Downloads\thechef87_ ...
+----------------------^
+ 8 | widgets:
+ 9 |   - openweathermap:
+[2025-04-12T17:53:56.241Z] error: Failed to load settings.yaml, please check for errors
+[2025-04-12T17:53:56.242Z] error: YAMLException: expected hexadecimal character (7:18)
+
+ 4 | title: My Dashboard
+ 5 | theme: dark
+ 6 | layout: horizontal
+ 7 | background: "C:\Users\lamarw\Downloads\thechef87_ ...
+----------------------^
+ 8 | widgets:
+ 9 |   - openweathermap:
+[2025-04-12T17:59:01.517Z] error: Failed to load settings.yaml, please check for errors
+[2025-04-12T17:59:01.517Z] error: YAMLException: bad indentation of a mapping entry (8:19)
+
+ 5 | theme: dark
+ 6 | layout: horizontal
+ 7 | background: config/public/icons/thechef87_The_only ...
+ 8 |   - openweathermap:
+-----------------------^
+ 9 |       label: Local Weather
+ 10 |       apiKey: "478c6ca9e225765d2073f68f7705c6cd"
+[2025-04-12T17:59:01.532Z] error: <index> YAMLException: bad indentation of a mapping entry (8:19)
+
+ 5 | theme: dark
+ 6 | layout: horizontal
+ 7 | background: config/public/icons/thechef87_The_only ...
+ 8 |   - openweathermap:
+-----------------------^
+ 9 |       label: Local Weather
+ 10 |       apiKey: "478c6ca9e225765d2073f68f7705c6cd"
+    at generateError (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:1273:10)
+    at throwError (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:1277:9)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2272:7)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2531:12)
+    at readDocument (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2715:3)
+    at loadDocuments (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2778:5)
+    at Object.load$1 [as load] (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2804:19)
+    at u (/app/.next/server/pages/browserconfig.xml.js:9:1682)
+    at L (/app/.next/server/pages/index.js:4:53377)
+    at /app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js:25:5225
+[2025-04-12T17:59:01.549Z] error: Failed to discover services, please check kubernetes.yaml for errors or remove example entries.
+[2025-04-12T17:59:01.549Z] error: YAMLException: bad indentation of a mapping entry (8:19)
+
+ 5 | theme: dark
+ 6 | layout: horizontal
+ 7 | background: config/public/icons/thechef87_The_only ...
+ 8 |   - openweathermap:
+-----------------------^
+ 9 |       label: Local Weather
+ 10 |       apiKey: "478c6ca9e225765d2073f68f7705c6cd"
+[2025-04-12T17:59:01.570Z] error: Failed to load settings.yaml, please check for errors
+[2025-04-12T17:59:01.570Z] error: YAMLException: bad indentation of a mapping entry (8:19)
+
+ 5 | theme: dark
+ 6 | layout: horizontal
+ 7 | background: config/public/icons/thechef87_The_only ...
+ 8 |   - openweathermap:
+-----------------------^
+ 9 |       label: Local Weather
+ 10 |       apiKey: "478c6ca9e225765d2073f68f7705c6cd"
+[2025-04-12T17:59:01.977Z] error: Failed to load settings.yaml, please check for errors
+[2025-04-12T17:59:01.978Z] error: YAMLException: bad indentation of a mapping entry (8:19)
+
+ 5 | theme: dark
+ 6 | layout: horizontal
+ 7 | background: config/public/icons/thechef87_The_only ...
+ 8 |   - openweathermap:
+-----------------------^
+ 9 |       label: Local Weather
+ 10 |       apiKey: "478c6ca9e225765d2073f68f7705c6cd"
+[2025-04-12T17:59:01.994Z] error: Failed to discover services, please check kubernetes.yaml for errors or remove example entries.
+[2025-04-12T17:59:01.994Z] error: YAMLException: bad indentation of a mapping entry (8:19)
+
+ 5 | theme: dark
+ 6 | layout: horizontal
+ 7 | background: config/public/icons/thechef87_The_only ...
+ 8 |   - openweathermap:
+-----------------------^
+ 9 |       label: Local Weather
+ 10 |       apiKey: "478c6ca9e225765d2073f68f7705c6cd"
+[2025-04-12T17:59:02.026Z] error: Failed to load settings.yaml, please check for errors
+[2025-04-12T17:59:02.026Z] error: YAMLException: bad indentation of a mapping entry (8:19)
+
+ 5 | theme: dark
+ 6 | layout: horizontal
+ 7 | background: config/public/icons/thechef87_The_only ...
+ 8 |   - openweathermap:
+-----------------------^
+ 9 |       label: Local Weather
+ 10 |       apiKey: "478c6ca9e225765d2073f68f7705c6cd"
+[2025-04-12T18:00:29.601Z] error: <index> YAMLException: bad indentation of a mapping entry (8:19)
+
+ 5 | theme: dark
+ 6 | layout: horizontal
+ 7 | background: icons/thechef87_The_only_thing_that_ch ...
+ 8 |   - openweathermap:
+-----------------------^
+ 9 |       label: Local Weather
+ 10 |       apiKey: "478c6ca9e225765d2073f68f7705c6cd"
+    at generateError (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:1273:10)
+    at throwError (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:1277:9)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2272:7)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2531:12)
+    at readDocument (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2715:3)
+    at loadDocuments (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2778:5)
+    at Object.load$1 [as load] (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2804:19)
+    at u (/app/.next/server/pages/browserconfig.xml.js:9:1682)
+    at L (/app/.next/server/pages/index.js:4:53377)
+    at /app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js:25:5225
+[2025-04-12T18:00:29.674Z] error: Failed to discover services, please check kubernetes.yaml for errors or remove example entries.
+[2025-04-12T18:00:29.674Z] error: YAMLException: bad indentation of a mapping entry (8:19)
+
+ 5 | theme: dark
+ 6 | layout: horizontal
+ 7 | background: icons/thechef87_The_only_thing_that_ch ...
+ 8 |   - openweathermap:
+-----------------------^
+ 9 |       label: Local Weather
+ 10 |       apiKey: "478c6ca9e225765d2073f68f7705c6cd"
+[2025-04-12T18:00:29.710Z] error: Failed to load settings.yaml, please check for errors
+[2025-04-12T18:00:29.710Z] error: YAMLException: bad indentation of a mapping entry (8:19)
+
+ 5 | theme: dark
+ 6 | layout: horizontal
+ 7 | background: icons/thechef87_The_only_thing_that_ch ...
+ 8 |   - openweathermap:
+-----------------------^
+ 9 |       label: Local Weather
+ 10 |       apiKey: "478c6ca9e225765d2073f68f7705c6cd"
+[2025-04-12T18:00:29.723Z] error: Failed to load settings.yaml, please check for errors
+[2025-04-12T18:00:29.723Z] error: YAMLException: bad indentation of a mapping entry (8:19)
+
+ 5 | theme: dark
+ 6 | layout: horizontal
+ 7 | background: icons/thechef87_The_only_thing_that_ch ...
+ 8 |   - openweathermap:
+-----------------------^
+ 9 |       label: Local Weather
+ 10 |       apiKey: "478c6ca9e225765d2073f68f7705c6cd"
+[2025-04-12T18:00:30.049Z] error: Failed to load settings.yaml, please check for errors
+[2025-04-12T18:00:30.049Z] error: YAMLException: bad indentation of a mapping entry (8:19)
+
+ 5 | theme: dark
+ 6 | layout: horizontal
+ 7 | background: icons/thechef87_The_only_thing_that_ch ...
+ 8 |   - openweathermap:
+-----------------------^
+ 9 |       label: Local Weather
+ 10 |       apiKey: "478c6ca9e225765d2073f68f7705c6cd"
+[2025-04-12T18:00:30.070Z] error: Failed to discover services, please check kubernetes.yaml for errors or remove example entries.
+[2025-04-12T18:00:30.071Z] error: YAMLException: bad indentation of a mapping entry (8:19)
+
+ 5 | theme: dark
+ 6 | layout: horizontal
+ 7 | background: icons/thechef87_The_only_thing_that_ch ...
+ 8 |   - openweathermap:
+-----------------------^
+ 9 |       label: Local Weather
+ 10 |       apiKey: "478c6ca9e225765d2073f68f7705c6cd"
+[2025-04-12T18:00:30.102Z] error: Failed to load settings.yaml, please check for errors
+[2025-04-12T18:00:30.103Z] error: YAMLException: bad indentation of a mapping entry (8:19)
+
+ 5 | theme: dark
+ 6 | layout: horizontal
+ 7 | background: icons/thechef87_The_only_thing_that_ch ...
+ 8 |   - openweathermap:
+-----------------------^
+ 9 |       label: Local Weather
+ 10 |       apiKey: "478c6ca9e225765d2073f68f7705c6cd"
+[2025-04-12T18:01:15.592Z] error: Failed to load settings.yaml, please check for errors
+[2025-04-12T18:01:15.592Z] error: YAMLException: bad indentation of a mapping entry (8:19)
+
+ 5 | theme: dark
+ 6 | layout: horizontal
+ 7 | background: icons/thechef87_The_only_thing_that_ch ...
+ 8 |   - openweathermap:
+-----------------------^
+ 9 |       label: Local Weather
+ 10 |       apiKey: "478c6ca9e225765d2073f68f7705c6cd"
+[2025-04-12T18:01:15.602Z] error: Failed to discover services, please check kubernetes.yaml for errors or remove example entries.
+[2025-04-12T18:01:15.603Z] error: YAMLException: bad indentation of a mapping entry (8:19)
+
+ 5 | theme: dark
+ 6 | layout: horizontal
+ 7 | background: icons/thechef87_The_only_thing_that_ch ...
+ 8 |   - openweathermap:
+-----------------------^
+ 9 |       label: Local Weather
+ 10 |       apiKey: "478c6ca9e225765d2073f68f7705c6cd"
+[2025-04-12T18:01:15.625Z] error: Failed to load settings.yaml, please check for errors
+[2025-04-12T18:01:15.625Z] error: YAMLException: bad indentation of a mapping entry (8:19)
+
+ 5 | theme: dark
+ 6 | layout: horizontal
+ 7 | background: icons/thechef87_The_only_thing_that_ch ...
+ 8 |   - openweathermap:
+-----------------------^
+ 9 |       label: Local Weather
+ 10 |       apiKey: "478c6ca9e225765d2073f68f7705c6cd"

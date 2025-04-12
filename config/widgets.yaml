@@ -1,0 +1,37 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/configs/info-widgets/
+
+- resources:
+    cpu: true
+    memory: true
+    disk: /
+
+- search:
+    provider: google
+    target: _blank
+
+- news:
+    api: newsapi
+    apiKey: {{HOMEPAGE_VAR_NEWSAPI_KEY}} # Use placeholder
+    query: "Politics OR Government OR Economy"
+    limit: 5
+    style: ticker
+
+- news:
+      api: newsapi
+      apiKey: {{HOMEPAGE_VAR_NEWSAPI_KEY}} # Use placeholder
+      query: "Politics OR Government OR Economy"
+      limit: 5
+      style: ticker
+
+# Added the openweathermap widget definition
+- openweathermap:
+      label: Local Weather
+      # Consider using an environment variable like {{HOMEPAGE_VAR_OPENWEATHER_KEY}}
+      apiKey: "478c6ca9e225765d2073f68f7705c6cd"
+      lat: "40.7128"
+      lon: "-74.0060"
+      units: metric
+      cache: 1800
+
